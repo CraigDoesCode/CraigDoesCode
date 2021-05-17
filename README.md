@@ -1,5 +1,5 @@
-- :wave:  Hi, I'm Craig it's Monday, 17 May, 20:20 CEST!
+- :wave:  Hi, I'm Craig it's Monday, 17 May, 23:20 CEST!
 - :eyes:  I'm interested in full stack development
-- :seedling:  I'm currently learning, ruby on the rails and react
+- :seedling:  I'm currently learning, ruby on rails and react
 - :revolving_hearts: I 'm looking to colaberate on react projects
 - :mailbox:  contact@craignorford.co.uk
