@@ -11,12 +11,6 @@ let DATA = {
   name: 'Craig',
   date: new Date().toLocaleDateString('en-GB', {
     weekday: 'long',
-    month: 'long',
-    day: 'numeric',
-    hour: 'numeric',
-    minute: 'numeric',
-    timeZoneName: 'short',
-    timeZone: 'Europe/Stockholm',
   }),
 };
 /**
