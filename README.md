@@ -1,4 +1,4 @@
-- :wave:  Hi, I'm Craig, happy Tuesday!
+- :wave:  Hi, I'm Craig, happy Wednesday!
 - :eyes:  I'm interested in full stack development
 - :seedling:  I'm currently learning, ruby on rails and react
 - :revolving_hearts: I 'm looking to colaberate on react projects
