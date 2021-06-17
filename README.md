@@ -3,9 +3,11 @@
 </h1>
 
 <p align='center'>
+
     <a href="https://www.linkedin.com/in/craig-norford-9a33838a/">
         <img src=”https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" />
     </a>
+
 </p>
 
 - :eyes:  I'm interested in full stack development
