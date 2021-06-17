@@ -1,5 +1,5 @@
 <h1 align='center'>
-    Hi, I'm Craig, happy Thursday!
+    Hi, I'm Craig :wave: happy Thursday!
 </h1>
 
 <div style="text-align:center">
@@ -8,8 +8,11 @@
     </a>
 </div>
 
-
-- :eyes:  I'm interested in full stack development
-- :seedling:  I'm currently learning, ruby on rails and react
-- :revolving_hearts: I 'm looking to colaberate on react projects
-- :mailbox:  contact@craignorford.co.uk
+<div style="text-align:center">
+    <p>
+        :eyes:  I'm interested in full stack development<br>
+        :seedling:  I'm currently learning, ruby on rails and react<br>
+        :revolving_hearts: I 'm looking to colaberate on react projects<br>
+        :mailbox:  contact@craignorford.co.uk
+    </p>
+</div>
