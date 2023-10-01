@@ -1,5 +1,5 @@
 <h1 align='center'>
-    Hi, I'm Craig :wave: happy Saturday!
+    Hi, I'm Craig :wave: happy Sunday!
 </h1>
 
 <div align="center">
