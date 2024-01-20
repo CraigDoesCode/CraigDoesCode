@@ -6,7 +6,7 @@
     <a href="https://www.linkedin.com/in/craig-norford-9a33838a/">
         <img align="center" alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
     </a><br /><br />
-      <table style="border: none;">
+      <table style="border-collapse:collapse;">
       <tr>
         <td>
           <strong>About Me</strong>
