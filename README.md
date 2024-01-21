@@ -5,18 +5,15 @@
 <div>
   <a href="https://www.linkedin.com/in/craig-norford-9a33838a/" align="center">
       <img align="center" alt="LinkedIn" src="https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white"/>
+      <img src="https://github-readme-stats.vercel.app/api?username=craigdoescode" alt="Craig's GitHub stats">
   </a><br /><br />
 
-  <h2><strong>About Me</strong><h2>
+  <h2><strong>About Me</strong></h2>
   <p>
     I am a software engineer with nearly two years of professional experience, specializing in Educational Technology and Artificial Intelligence. My career in tech has been driven by a commitment to leveraging digital tools for enhancing learning experiences and delivering tangible business value.
   </p>
 
-  <p>
-    :eyes:  I'm interested in full stack development<br />
-    :seedling:  I'm currently learning, ruby on rails and react<br />
-    :revolving_hearts: I 'm looking to colaberate on react projects<br />
-    :mailbox:  contact@craignorford.co.uk
-  </p>
+  <h2><strong>My Tech Stack</strong></h2>
+
 </div>
 `
