@@ -1,33 +1,40 @@
 import Mustache from "mustache";
 import * as path from "path";
 import * as fs from "fs";
+import { promisify } from "util";
+
 const MUSTACHE_MAIN_DIR = "./main.mustache";
 const directory = "./images";
-/**
- * DATA is the object that contains all
- * the data to be provided to Mustache
- * Notice the "name" and "date" property.
- */
-let DATA = {
+const readdirAsync = promisify(fs.readdir);
+const lstatAsync = promisify(fs.lstat);
+
+const getStack = async () => {
+  let stackItems = [];
+  try {
+    const files = await readdirAsync(directory);
+    for (const file of files) {
+      const fileDetails = await lstatAsync(path.resolve(directory, file));
+      if (fileDetails.isDirectory()) {
+        console.log("Directory: " + file);
+      } else {
+        stackItems.push(file);
+      }
+    }
+  } catch (err) {
+    console.error("Error reading directory:", err);
+  }
+  return stackItems;
+};
+
+const stack = await getStack();
+
+const DATA = {
   name: "Craig",
   date: new Date().toLocaleDateString("en-GB", {
     weekday: "long",
   }),
+  stack,
 };
-const stack = fs.readdir(directory, (err, files) => {
-  let stackItems = [];
-  files.forEach((file) => {
-    // get the details of the file
-    let fileDetails = fs.lstatSync(path.resolve(directory, file));
-    // check if the file is directory
-    if (fileDetails.isDirectory()) {
-      console.log("Directory: " + file);
-    } else {
-      stackItems.push(file);
-    }
-  });
-  console.log(stackItems);
-});
 
 const generateReadMe = () => {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {

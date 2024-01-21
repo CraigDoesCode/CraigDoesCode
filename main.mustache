@@ -17,6 +17,12 @@
   </p>
 
   <h2><strong>My Tech Stack</strong></h2>
+  {{#stack}}
+  <div>
+    <img src="images/{{.}}" alt="{{name}}" width="50" height="50" />
+    <p>{{.}}</p>
+  </div>
+  {{/stack}}
 
 </div>
 `
