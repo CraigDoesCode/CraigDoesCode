@@ -63,16 +63,8 @@ const DATA = {
     weekday: "long",
   }),
   stack: stack.map((item) => {
-    return { name: trim(item), image: item };
+    return { name: trim(item), icon: item };
   }),
-};
-
-const generateStackSVG = () => {
-  fs.readFile("stack.mustache", (err, data) => {
-    if (err) throw err;
-    const output = Mustache.render(data.toString(), DATA);
-    fs.writeFileSync("stack.svg", output);
-  });
 };
 
 const generateReadMe = () => {
@@ -83,5 +75,4 @@ const generateReadMe = () => {
     fs.writeFileSync("README.md", output);
   });
 };
-generateStackSVG();
 generateReadMe();

@@ -8,6 +8,7 @@
   </a>
   <br /><br />
   <img src="https://github-readme-stats.vercel.app/api?username=craigdoescode" alt="Craig's GitHub stats">
+
 </div>
 <div>
 
@@ -17,7 +18,33 @@
   </p>
 
   <h2><strong>Tech Stack</strong></h2>
-  <img src="stack.svg" >
+  <table class="images" width="100%"  style="border:0px solid white; width:100%;">
+    <tr style="border: 0px;">
+        <td width="50%" style="border:0px; width:50%">
+            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=craigdoescode">
+        </td>
+        <td width="50%" style="border:0px; width:50%">
+            <p float="right"> some words</p>
+        </td>
+    </tr>
+  </table>
+  <p float="left">
+      <img src="images/docker.png" alt="Docker" width="50" height="50" />
+      <img src="images/express.png" alt="Express" width="50" height="50" />
+      <img src="images/github.png" alt="Github" width="50" height="50" />
+      <img src="images/javascript.png" alt="Javascript" width="50" height="50" />
+      <img src="images/kubernetes.png" alt="Kubernetes" width="50" height="50" />
+      <img src="images/nestJS.png" alt="NestJS" width="50" height="50" />
+      <img src="images/nextjs.png" alt="NextJS" width="50" height="50" />
+      <img src="images/nodejs.png" alt="NodeJS" width="50" height="50" />
+      <img src="images/python.png" alt="Python" width="50" height="50" />
+      <img src="images/react.png" alt="React" width="50" height="50" />
+      <img src="images/ruby-on-rails.png" alt="Ruby on Rails" width="50" height="50" />
+      <img src="images/ruby.png" alt="Ruby" width="50" height="50" />
+      <img src="images/tech-stack.png" alt="Tech Stack" width="50" height="50" />
+      <img src="images/terraform.png" alt="Terraform" width="50" height="50" />
+      <img src="images/typescript.png" alt="Typescript" width="50" height="50" />
+  </p>
 
   <h2><strong>Projects</strong></h2>
 
