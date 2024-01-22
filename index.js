@@ -67,6 +67,14 @@ const DATA = {
   }),
 };
 
+const generateStackSVG = () => {
+  fs.readFile("stack-template.svg", (err, data) => {
+    if (err) throw err;
+    const output = Mustache.render(data.toString(), DATA);
+    fs.writeFileSync("stack.svg", output);
+  });
+};
+
 const generateReadMe = () => {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
