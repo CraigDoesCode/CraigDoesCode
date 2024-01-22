@@ -33,7 +33,6 @@ const capitalize = (word) => {
 };
 
 const trim = (text) => {
-  console.log(text);
   if (!text) {
     console.log("No text");
     return;
@@ -70,7 +69,6 @@ const DATA = {
 const generateReadMe = () => {
   fs.readFile(MUSTACHE_MAIN_DIR, (err, data) => {
     if (err) throw err;
-    console.log("data: ", DATA);
     const output = Mustache.render(data.toString(), DATA);
     fs.writeFileSync("README.md", output);
   });
