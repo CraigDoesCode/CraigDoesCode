@@ -68,7 +68,7 @@ const DATA = {
 };
 
 const generateStackSVG = () => {
-  fs.readFile("stack-template.svg", (err, data) => {
+  fs.readFile("stack.mustache", (err, data) => {
     if (err) throw err;
     const output = Mustache.render(data.toString(), DATA);
     fs.writeFileSync("stack.svg", output);
@@ -83,4 +83,5 @@ const generateReadMe = () => {
     fs.writeFileSync("README.md", output);
   });
 };
+generateStackSVG();
 generateReadMe();

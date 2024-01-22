@@ -1,0 +1,42 @@
+  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+  <!DOCTYPE svg >
+
+  <svg fill="none" viewBox="0 0 200 0" height="200" xmlns="http://www.w3.org/2000/svg">
+    <foreignObject width="100%" height="100%">
+      <div xmlns="http://www.w3.org/1999/xhtml">
+        <style>
+        .stack-container {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: start;
+          align-content: start;
+          backgroybd-color: black;
+        }
+        .stack-item {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          justify-items: center;
+          text-align: center;
+          align-items: start;
+          align-content: start;
+          margin: 10px;
+          width: 10%;
+        }
+        .center {
+          margin: 0 auto;
+        }
+        </style>
+        <div class="stack-container">
+        {{#stack}}
+          <div class="stack-item">
+            <img src="images/{{image}}" width="50" height="50"/>
+            <p>{{name}}</p>
+          </div>
+        {{/stack}}
+        </div>
+      </div>
+    </foreignObject>
+  </svg>
