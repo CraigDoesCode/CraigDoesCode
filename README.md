@@ -1,5 +1,5 @@
 <h1 align='center'>
-    Hi, I'm Craig :wave: happy Wednesday!
+    Hi, I'm Craig :wave: happy Thursday!
 </h1>
 <table class="images" width="100%"  style="border:0px solid white; width:100%;">
     <tr style="border: 0px;">
