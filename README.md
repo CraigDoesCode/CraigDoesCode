@@ -2,7 +2,7 @@
   <img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=craigdoescode">
 </p>
 <h1 align='center'>
-    Hi, I'm Craig :wave: happy Friday!
+    Hi, I'm Craig :wave: happy Monday!
 </h1>
 <p align="center">
     <img src="images/docker.png" alt="Docker" width="50" height="50" />
